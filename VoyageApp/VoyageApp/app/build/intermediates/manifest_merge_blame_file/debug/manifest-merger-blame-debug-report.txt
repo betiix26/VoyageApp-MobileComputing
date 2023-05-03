@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.travel.voyage"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:5:5-77
+11-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:5:22-74
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:6:22-62
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:7:5-60
+14-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:7:19-57
+15    <uses-feature
+15-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:8:5-95
+16        android:name="android.hardware.camera.autofocus"
+16-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:8:19-67
+17        android:required="false" />
+17-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:8:68-92
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:9:5-67
+19-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:9:22-64
+20
+21    <application
+21-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:11:5-37:19
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:12:9-43
+25        android:label="Voyage"
+25-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:13:9-31
+26        android:roundIcon="@mipmap/ic_launcher"
+26-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:14:9-48
+27        android:supportsRtl="true"
+27-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:15:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.TravelJournal" >
+29-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:16:9-51
+30        <activity android:name="com.travel.voyage.trip.ViewTripActivity" />
+30-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:17:9-76
+30-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:17:19-73
+31        <activity android:name="com.travel.voyage.RegisterActivity" />
+31-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:18:9-71
+31-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:18:19-68
+32        <activity android:name="com.travel.voyage.LoginActivity" />
+32-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:19:9-68
+32-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:19:19-65
+33        <activity
+33-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:20:9-23:68
+34            android:name="com.travel.voyage.trip.NewTripActivity"
+34-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:21:13-66
+35            android:parentActivityName="com.travel.voyage.HomeActivity"
+35-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:22:13-72
+36            android:theme="@style/Theme.TravelJournal.ActionBar" />
+36-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:23:13-65
+37        <activity
+37-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:24:9-27:70
+38            android:name="com.travel.voyage.HomeActivity"
+38-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:25:13-58
+39            android:label="@string/title_activity_home"
+39-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:26:13-56
+40            android:theme="@style/Theme.TravelJournal.NoActionBar" />
+40-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:27:13-67
+41        <activity
+41-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:28:9-36:20
+42            android:name="com.travel.voyage.MainActivity"
+42-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:29:13-58
+43            android:theme="@style/SplashTheme" >
+43-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:30:13-47
+44            <intent-filter>
+44-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:31:13-35:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:32:17-69
+45-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:32:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:34:17-77
+47-->C:\Users\ASUS\Desktop\VoyageApp\VoyageApp\app\src\main\AndroidManifest.xml:34:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <service
+51-->[androidx.room:room-runtime:2.2.6] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+52            android:name="androidx.room.MultiInstanceInvalidationService"
+52-->[androidx.room:room-runtime:2.2.6] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+53            android:directBootAware="true"
+53-->[androidx.room:room-runtime:2.2.6] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+54            android:exported="false" />
+54-->[androidx.room:room-runtime:2.2.6] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+55    </application>
+56
+57</manifest>
